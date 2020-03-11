@@ -16,7 +16,7 @@ describe "Cat" do
 
   it 'has a name' do
     maru.name = "Maru"
-    expect(maru.name).to eq("Maru")
+    expect(maru.name.to eq("Maru")
   end
 
    it "is able to meow" do
